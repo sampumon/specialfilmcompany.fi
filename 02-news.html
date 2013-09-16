@@ -1,0 +1,12 @@
+---
+layout: sfc
+title: News
+permalink: news/
+---
+
+<h1>News</h1>
+
+{% for post in site.posts %}
+<h2>{{ post.date | date_to_string }} &raquo; {{ post.title }}</h2>
+{{ post.content }}
+{% endfor %}

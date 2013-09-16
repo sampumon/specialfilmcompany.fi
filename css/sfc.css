@@ -1,0 +1,160 @@
+/* HOT TOM OF FINLAND */
+
+html {
+	/*background: url(/img/bg-up.png), url(/img/bg-main.png);*/
+	/*background-position: 50% 0, 50% 375px;*/
+	/*background-size: 100%, 100%;*/
+	background: url(/img/bg-v.png);
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	background: white;
+	color: #666;
+
+	padding: 0 150px;
+	padding-bottom: 20px;
+	width: 800px;
+	margin: auto;
+
+	min-height: 100%;
+	/* FIXING SHORT PAGES' PADDING-BOTTOM EXTRA SCROLLING ANNOYANCE */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* LOGO PLÄJÄYS */
+
+#logo {
+	padding-top: 40px;
+	text-align: center;
+}
+
+#logo img {
+	width: 80%;
+}
+
+/* NAVIGOINTI HOMMAT */
+
+nav {
+	font-size: 13pt;
+	font-weight: bold;
+	margin-top: 80px;
+	text-align: justify;
+}
+
+nav ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+nav > ul > li {
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav .break {
+	display: inline-block;
+	width: 100%;
+}
+
+nav a {
+	color: #666;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a img {
+	border: 0;
+}
+
+nav li.active > a {
+	color: red;
+}
+
+/* SISÄLTÖ HOMMAT */
+
+iframe {
+	width: 640px;
+	height: 360px;
+	border: none;
+}
+
+h1 {
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	color: red;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 12pt;
+	margin-bottom: 0em;
+}
+
+section > h2:first-child {
+	margin-top: 0;
+}
+
+h2 + p {
+	margin-top: 0.5em;
+}
+
+p.sinkku {
+	margin-top: 0;
+}
+
+hr {
+	height: 2px;
+	background: red;
+	border: 0;
+}
+
+article {
+	font-size: 11pt;
+}
+
+figure {
+	margin-top: 1em;
+	margin-left: 0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+.address {
+	-webkit-column-break-inside:avoid;
+	-moz-column-break-inside:avoid;
+	column-break-inside:avoid;
+}
+.extra {
+	color: #999;
+}
+
+.double {
+	margin-top: 3em;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+}
+
+footer {
+	margin-top: 40px;
+	text-align: right;
+}
+
+footer img {
+	margin-left: 0.5em;
+}

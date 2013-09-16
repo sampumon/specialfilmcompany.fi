@@ -1,0 +1,19 @@
+---
+layout: sfc
+title: Tom The Movie
+permalink: tom/
+---
+
+h1. {{page.title}}
+
+_Tom_ is an independent feature film produced by Special Film Company. The movie will be filmed in 2014 and released worldwide in 2015.
+
+There was a boy born in 1920. During his childhood, he secretly draws pictures of naked men and sleeps wearing only leather boots. As a young man, he serves in the war as an officer and has sex with his fellow soldiers, Finnish and German alike.
+
+In the 1950’s he lives a double life. By day, he is a talented advertising artist and a pianist, by night, a genius creator of erotic drawings.
+
+We remember the drawings that set a whole generation of men free. We recognize his style from leather, huge muscles and humour. We know who Tom of Finland is. It’s time to meet Touko Laaksonen.
+
+Tom is an ambitious independent production and the filming will take place in multiple countries. A portion of the films budget will come from crowd sourcing and the rest from our partners and private investors from around the world.
+
+"tomthemovie.com":http://tomthemovie.com/

@@ -1,0 +1,9 @@
+name: Special Film Company
+markdown: redcarpet
+pygments: true
+
+navigation:
+  - /about/
+  - /news/
+  - /tom/
+  - /contact/

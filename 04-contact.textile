@@ -1,0 +1,51 @@
+---
+layout: sfc
+title: Contact Us
+permalink: contact/
+---
+
+h1. {{page.title}}
+
+Special Film Company
+Vaasankatu 14
+00500 Helsinki
+Finland
+
+"info@specialfilmcompany.fi":info@specialfilmcompany.fi
+
+<section class="double">
+
+h2. CEO, producer
+
+p(sinkku address). Miikka Haleyi
+miikka@specialfilmcompany.fi
++358 40 522 6795
+
+h2. Directors
+
+p(address). Vesa Kuosmanen
+vesa@specialfilmcompany.fi
+
+p(address). Henri Huttunen
+henri@specialfilmcompany.fi
+
+h2. Space & web adventures
+
+p(sinkku address). Mikkotron & Sampumon / "Viiksipojat":http://viiksipojat.fi/
+
+
+h2. Producers
+
+p(address). Katri Myllyniemi
+katri@specialfilmcompany.fi
++358 40 969 2872
+
+p(address). Emilia Wahlberg
+emilia@specialfilmcompany.fi
++358 50 347 3300
+
+p(address). Olli Rinne
+olli@specialfilmcompany.fi
++358 40 779 4974
+
+</section>
