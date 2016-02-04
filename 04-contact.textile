@@ -37,7 +37,7 @@ p(sinkku address). Mikkotron & Sampumon
 
 h2. Producers
 
-p(address). Kimmo Välimäki
+p(address). Kimmo Sillanmikko
 kimmo@specialfilmcompany.fi
 +358 45 121 5017
 

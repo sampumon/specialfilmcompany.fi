@@ -2,18 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta author="Viiksipojat/Special Film Company">
+	<meta author="Viiksipojat vs. Special Film Company">
 	<meta description="We are always willing to tackle Special, risky subjects to deliver something you really haven’t seen before.">
 
 	<title>SFC/{{ page.title }}</title>
 	<!-- <meta name="viewport" content="width=device-width"> -->
 
 	<!--[if lt IE 9]>
-	<script src="/js/html5shiv.js"></script>
+	<script src="/js/html5shiv.min.js"></script>
 	<![endif]-->
 
 	<!-- leipätexxti & navbar -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i' rel='stylesheet' type='text/css'>
 	<!-- ainoostaan h1 -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 
@@ -26,9 +26,9 @@
 </div>
 
 <nav>
-	<ul class="navbar navbar-default">
+	<ul>
 		{% for p in site.pages %}
-		{% if site.navigation contains p.url %}
+		{% if site.data.navigation contains p.url %}
 		<li {% if p.url == page.url %}class="active"{% endif %}>
 			<a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a>
 		</li>
@@ -41,11 +41,6 @@
 <article>
 	{{ content }}
 </article>
-
-<footer>
-	<a href="http://www.twitter.com/TOMthemovie"><img class="icon" src="/img/twitter.png" alt="twitter"></a>
-	<a href="http://www.facebook.com/tomthefilm"><img class="icon" src="/img/facebook.png" alt="facebook"></a>
-</footer>
 
 <script type="text/javascript">
 

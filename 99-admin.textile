@@ -6,29 +6,51 @@ permalink: admin/
 
 h1. {{page.title}}
 
-The site is built with "Jekyll":http://jekyllrb.com/. Good help is available there, also here:
+This site is built with "Jekyll":http://jekyllrb.com/, _wordpress_ for programmers.
 
-"jekyllbootstrap.com":http://jekyllbootstrap.com/
-"Liquid for Designers":http://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+h2. Install
 
-h2. Install & run
+Open "Terminal":http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line.
 
-pre. sudo gem install jekyll RedCloth
+pre. sudo gem install jekyll jekyll-textile-converter
 
-Might need @gem update@ first, but will let you know. RedCloth is required for "Textile":http://txstyle.org/article/44/an-overview-of-the-textile-syntax support.
+jekyll-textile-converter installs "RedCloth":http://redcloth.org/ for Textile support, which we use for markup.
 
-Download the @SFC@ directory from Dropbox. Then, inside @SFC@:
+You can skip _sudo_ by first installing Ruby via "Homebrew":http://brew.sh.
 
-pre. jekyll serve --watch
+h2. Run
 
-And head to "localhost:4000":http://localhost:4000. Good luck!
+Find the @SFC@ directory, shared to you by "Viiksipojat":http://viiksipojat.fi, from your Dropbox.
+
+pre. cd ~/Dropbox/SFC
+
+Run & leave Jekyll serving your site.
+
+pre. jekyll serve --incremental
+
+Head your browser to "localhost:4000":http://localhost:4000.
+
+h2. Edit
+
+Use "Atom":http://atom.io for editing your site.
+
+Find the file you need to edit. Edit & save. As you have @jekyll serve@ running, Jekyll generates your site automatically on save. Refresh browser.
+
+We use "Textile":http://redcloth.org/textile markup. Within Textile, you can mix HTML as you wish.
+
+For hardcore, you may need to splatter some "Liquid":http://github.com/Shopify/liquid/wiki/Liquid-for-Designers, Jekyll's templating language.
+
+@_layouts/sfc.html@ holds the master template.
+@_site@ holds the Jekyll-generated site; don't edit anything in there.
 
 h2. Publish
 
-Upload or sync the @_sites@ directory into ftp.specialfilmcompany.fi.
+Upload or sync the @_site@ directory into @ftp.specialfilmcompany.fi@.
 
-Syncing is crippled by Jekyll "updating all file timestamps":http://github.com/mojombo/jekyll/issues/1544 when running @jekyll serve@ or @jekyll build@.
+Cyberduck can sync "based on timestamp":http://trac.cyberduck.ch/wiki/help/en/howto/sync, which uploads changed files only.
 
-Cyberduck only syncs "based on updated timestamp":http://trac.cyberduck.ch/wiki/help/en/howto/sync, which syncs _all_ files on Jekyll case. With "ForkLift":http://www.binarynights.com/ or "Transit":http://panic.com/transmit/ (both non-free), it's possible to sync based on differing file size, which works but it's of course possible to have a modified file with old size by accident.
+Or you could use the included "sync.sh":../sync.sh, which uses "lftp":http://lftp.yar.ru/.
 
-Or you can just re-upload everything always. Or ask for @ssh@ access, and use @rsync@.
+h2. GitHub
+
+You could also publish your Jekyll site on "GitHub Pages":http://pages.github.com (for free).
