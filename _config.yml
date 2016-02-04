@@ -1,9 +1,11 @@
 name: Special Film Company
-markdown: redcarpet
-pygments: true
+exclude: [SFC.key]
+gems: [jekyll-textile-converter]
 
 navigation:
-  - /about/
-  - /news/
-  - /tom/
+  - /
+#  - /about/
+#  - /news/
+#  - /tom/
+  - /projects/
   - /contact/

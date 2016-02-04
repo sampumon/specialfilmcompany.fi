@@ -2,8 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta author="Viiksipojat/Special Film Company">
+	<meta description="We are always willing to tackle Special, risky subjects to deliver something you really haven’t seen before.">
+
 	<title>SFC/{{ page.title }}</title>
 	<!-- <meta name="viewport" content="width=device-width"> -->
 
@@ -27,7 +28,7 @@
 <nav>
 	<ul class="navbar navbar-default">
 		{% for p in site.pages %}
-		{% if p.url != "/index.html" %}
+		{% if site.navigation contains p.url %}
 		<li {% if p.url == page.url %}class="active"{% endif %}>
 			<a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a>
 		</li>

@@ -31,21 +31,23 @@ henri@specialfilmcompany.fi
 
 h2. Space & web adventures
 
-p(sinkku address). Mikkotron & Sampumon / "Viiksipojat":http://viiksipojat.fi/
+p(sinkku address). Mikkotron & Sampumon
+"Viiksipojat":http://viiksipojat.fi/
 
 
 h2. Producers
+
+p(address). Kimmo Välimäki
+kimmo@specialfilmcompany.fi
++358 45 121 5017
 
 p(address). Katri Myllyniemi
 katri@specialfilmcompany.fi
 +358 40 969 2872
 
-p(address). Emilia Wahlberg
-emilia@specialfilmcompany.fi
-+358 50 347 3300
+p(address). Emilia Haukka
+haukka@specialfilmcompany.fi
++358 50 380 4427
 
-p(address). Olli Rinne
-olli@specialfilmcompany.fi
-+358 40 779 4974
 
 </section>

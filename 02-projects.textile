@@ -1,0 +1,68 @@
+---
+layout: sfc
+title: Projects
+permalink: projects/
+---
+
+h1. {{page.title}} in Development
+
+_Psychosis, definitely_ short film
+A chainsawjuggler traveling to North Korea to perform at a dictator's birthday party is sent to a mental asylum. He needs to flee in 48 hours to make the gig. This Wes Anderson styled comedy is based on a true story.
+
+The film has been granted production funding from the Finnish Film Foundation. 
+Director and writer: Vesa Kuosmanen and Henri Huttunen
+Starring: Markus Järvenpää ja Satu Silvo
+Schedule:  Shooting spring 2015. Domestic premiere May 2015.
+
+---
+
+_Tom the Movie_ feature film 
+Until the year 1971, being gay in Finland could land you in jail for years. During the 50s people committed suicide because they were exposed. There is a man who lives a double life. By day he is a talented advertising artist and a pianist, by night a genius creator of erotic drawings. Touko, an artist with forbidden sexuality,  becomes an international gay icon, Tom of Finland. The film based on Touko Laaksonen’s life tells an exceptional story how illegal jerk off pictures freed the whole generation of masculine gay men.
+
+We've made "a short film like teaser":http://tomthemovie.com/ to visualize the style of the film and it has got more than 320 000 views.
+
+Director: Henri Huttunen and Vesa Kuosmanen
+Writer: Tuomo Rämö ja Akseli Hannula
+Starring: Olli Rahkonen
+Schedule: In development, estimated premiere 2016.
+Estimated budget: 800 000€
+
+---
+
+_Motor Oil_ short film
+Anna (32) can fix engines, but can she lubricate her own sexlife? Anna, a married woman, has a fling with armoured role playing geek, young handsome Sami. When her husband finds out they need to overcome the problems of every long lasting relationship.
+
+The film has been granted development funding from the Finnish Film Foundation and director Vilja Autiokyrö won the Nisi Masa European Short Pitch 2014 competition with the script.
+
+Director and writer: Vilja Autiokyrö
+Schedule: In pre-production, estimated premiere in late 2015.
+
+---
+
+_Wormhole_ short animation film
+Vienna 1914. Otto finds a wormhole into another dimension. It drives his mental health and relationship into ruins. While Otto seeks counseling from Freud, his girlfriend Emma also finds comfort on Freud’s couch.
+
+The 12-minute German-language animation film has been granted the development funding from the Finnish Film Foundation and it has been pre-sold to Finnish Broadcast company YLE.
+Director and writer: Antti Laakso, Tommi Juutilainen, Lauri Järvenpää, Samppa Kukkonen, Chrzu Lindström, Joni Männistö, Lotta Rapeli, Elli Vuorinen
+Art Director: Simo Ruotsalainen
+Schedule: In pre-production, estimated premiere early 2016
+
+---
+
+_Nuclear Family_ tv-series.
+A twelve episode tv-series. Each episode is set during a different family holiday gathering. A single father lies to his parents about finally marrying the mother of his child in order to use the wedding funds to support his ex-girlfriend’s get-rich-quick scheme. Finally, during the series the main character learns that the nuclear family isn’t the only model for happiness. 
+
+The film has been granted the scriptwriting funding from the Finnish Film Foundation.
+Director: Vesa Kuosmanen
+Writer: Tuomo Rämö
+Schedule: In development, estimated tv-premiere 2017
+
+---
+
+_Fuck Stories_ documentary short film
+The documentary film portrays the stories of drunken one-night stands of Generation Y. The episodical stories we see explore the intertwined relationship of sexuality and humanity. The young adults seen in the film give faces to the sexual frustration in the capitalistic society.
+
+The film has been granted the scriptwriting funding of the Finnish Film Foundation.
+
+Director and writer: Vesa Kuosmanen
+Schedule: In pre-production, estimated premiere early 2016.

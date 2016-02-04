@@ -1,0 +1,34 @@
+---
+layout: sfc
+title: Admin Help
+permalink: admin/
+---
+
+h1. {{page.title}}
+
+The site is built with "Jekyll":http://jekyllrb.com/. Good help is available there, also here:
+
+"jekyllbootstrap.com":http://jekyllbootstrap.com/
+"Liquid for Designers":http://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+
+h2. Install & run
+
+pre. sudo gem install jekyll RedCloth
+
+Might need @gem update@ first, but will let you know. RedCloth is required for "Textile":http://txstyle.org/article/44/an-overview-of-the-textile-syntax support.
+
+Download the @SFC@ directory from Dropbox. Then, inside @SFC@:
+
+pre. jekyll serve --watch
+
+And head to "localhost:4000":http://localhost:4000. Good luck!
+
+h2. Publish
+
+Upload or sync the @_sites@ directory into ftp.specialfilmcompany.fi.
+
+Syncing is crippled by Jekyll "updating all file timestamps":http://github.com/mojombo/jekyll/issues/1544 when running @jekyll serve@ or @jekyll build@.
+
+Cyberduck only syncs "based on updated timestamp":http://trac.cyberduck.ch/wiki/help/en/howto/sync, which syncs _all_ files on Jekyll case. With "ForkLift":http://www.binarynights.com/ or "Transit":http://panic.com/transmit/ (both non-free), it's possible to sync based on differing file size, which works but it's of course possible to have a modified file with old size by accident.
+
+Or you can just re-upload everything always. Or ask for @ssh@ access, and use @rsync@.
