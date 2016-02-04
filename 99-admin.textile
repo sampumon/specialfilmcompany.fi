@@ -49,7 +49,7 @@ Upload or sync the @_site@ directory into @ftp.specialfilmcompany.fi@.
 
 Cyberduck can sync "based on timestamp":http://trac.cyberduck.ch/wiki/help/en/howto/sync, which uploads changed files only.
 
-Or you could use the included "sync.sh":../sync.sh, which uses "lftp":http://lftp.yar.ru/.
+Or you could use the included "sync.sh":{{ site.github.url }}/sync.sh, which uses "lftp":http://lftp.yar.ru/.
 
 h2. GitHub
 

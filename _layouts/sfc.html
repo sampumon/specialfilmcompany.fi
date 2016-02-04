@@ -17,12 +17,12 @@
 	<!-- ainoostaan h1 -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 
-	<link rel="stylesheet" href="/css/sfc.css">
+	<link rel="stylesheet" href="{{ '/css/sfc.css' | prepend:site.github.url }}">
 </head>
 <body>
 
 <div id="logo">
-	<img src="/img/specialfilmcompany.png">
+	<img src="{{ '/img/specialfilmcompany.png' | prepend:site.github.url }}">
 </div>
 
 <nav>
@@ -30,7 +30,7 @@
 		{% for p in site.pages %}
 		{% if site.data.navigation contains p.url %}
 		<li {% if p.url == page.url %}class="active"{% endif %}>
-			<a href="{{ p.url | remove:'index.html' }}">{{ p.title }}</a>
+			<a href="{{ p.url | prepend:site.github.url }}">{{ p.title }}</a>
 		</li>
 		{% endif %}
 		{% endfor %}

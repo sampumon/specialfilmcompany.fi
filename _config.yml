@@ -1,3 +1,4 @@
 name: Special Film Company
 exclude: [SFC.key]
 gems: [jekyll-textile-converter]
+# baseurl: /specialfilmcompany.fi

@@ -1,11 +1,9 @@
-/* HOT TOM OF FINLAND */
+---
+title: HOT TOM OF FINLAND
+---
 
 html {
-	/*background: url(/img/bg-up.png), url(/img/bg-main.png);*/
-	/*background-position: 50% 0, 50% 375px;*/
-	/*background-size: 100%, 100%;*/
-	background: url(/img/bg.png);
-	/*background-position: 50% 0;*/
+	background: url({{ '/img/bg.png' | prepend:site.github.url }});
 	background-repeat: no-repeat;
 
 	height: 100%;
